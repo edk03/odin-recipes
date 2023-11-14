@@ -1,0 +1,51 @@
+.odin {
+    width: 800px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+body {
+    text-align: center;
+    word-spacing: 20px;
+    background-color: rgb(199, 195, 195);
+   
+}
+
+.list {
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+}
+
+ul {
+    display: grid;
+    padding: 0;
+    grid-template-columns: repeat(3, 1fr);
+    color: white;
+}
+
+li {
+    display: inline-block;
+
+}
+
+.lasagna {
+    background-color: orange;
+
+}
+
+.spaghetti {
+    background-color: blue;
+
+}
+
+.greek {
+    background-color: black;
+
+}
+a {
+    color: white;
+}
